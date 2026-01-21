@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer components {
+    .nav-links {
+        @apply text-gray-600 font-bold hover:text-blue-600 hover:underline hover:decoration-3 hover:underline-offset-5 duration-500 hover:-translate-y-1.5 cursor-pointer transition-all
+    }
+
+    .nav-button {
+        @apply bg-blue-600 text-white text-center px-5 py-2 rounded-lg font-bold border hover:bg-transparent hover:text-blue-600 hover:border-2 hover:border-blue-600 transition-all shadow md:shadow-blue-500
+    }
+
+    .footer-socials {
+        @apply w-5 h-5 hover:scale-150 duration-700
+    }
+}

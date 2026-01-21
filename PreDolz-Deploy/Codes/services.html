@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en" style="height: auto; min-height: 100%;">
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- SEO Meta -->
+    <meta
+      name="description"
+      content="We build fast, clean, and affordable websites for  businesses, startups, and freelancers. Simple designs that help customers find and contact you and help you  build your presence for your business online."
+    />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      name="keywords"
+      content="best website, PreDolz Technologies, best website in Nigeria"
+    />
+    <meta name="author" content="PreDolz Technologies" />
+
+    <!-- Open Graph (for Social Media) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="PreDolz Technologies — Simple Business Websites That Work"
+    />
+    <meta
+      property="og:description"
+      content="Fast, clean, and affordable websites designed to help  businesses get found online and builds presence for your business."
+    />
+    <!-- <meta name="twitter:card" content="summary_large_image" /> -->
+    <meta
+      name="twitter:title"
+      content="PreDolz Technologies | Simple Business Websites That Work"
+    />
+    <meta
+      name="twitter:description"
+      content="Affordable and professional websites for all businesses."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.predolztechnologies.com/og-image.png"
+    />
+
+    <!-- <meta property="og:image" content="images/predolz-preview.jpg" /> -->
+    <meta property="og:url" content="https://www.predolztechnologies.com/" />
+    <meta
+      property="og:image"
+      content="https://www.predolztechnologies.com/og-image.png"
+    />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../Assets/Favicon/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Assets/Favicon/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Assets/Favicon/favicon_io/favicon-16x16.png">
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Page Title -->
+    <title>
+      PreDolz Technologies | Simple Business Websites
+    </title>
+
+    <!-- External Fonts and Styles -->
+    <link rel="canonical" href="https://www.predolztechnologies.com/" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <link href="./output.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-gray-600 antialiased" style="height: auto; min-height: 100%;">
+
+    <!-- Navigation -->
+    <nav class="bg-white border-b border-gray-100 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="shrink-0 flex items-center gap-2">
+                        <div class="w-10 h-8 rounded-lg flex items-center justify-center">
+                            <img src="/PreDolz-Deploy/Assets/Logo/PREDOLZ Logo.png" alt="PreDolz Logo" class="w-10 h-13">
+                        </div>
+                        <span class="font-bold text-xl text-gray-900">PreDolz</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex md:items-center md:space-x-4">
+                    <a href="index.html"  class="nav-links">Home</a>
+                    <a href="about.html"  class="nav-links">About Us</a>
+                    <a href="services.html" class="text-blue-600 font-bold">Services</a>
+                    <a href="contact.html"  class="nav-links">Contact</a>
+                    <a href="#"  class="nav-button">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="flex items-center md:hidden">
+                    <button type="button" class="text-gray-500 hover:text-gray-600 focus:outline-none p-2" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden bg-white border-t border-gray-100" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html"  class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-gray-50">Home</a>
+                <a href="about.html"  class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-gray-50">About Us</a>
+                <a href="services.html" class="block px-3 py-2 rounded-md text-base font-bold text-blue-600 bg-blue-50">Services</a>
+                <a href="contact.html"  class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-gray-50">Contact</a>
+                <div class="pt-4 pb-2">
+                    <a href="contact.html" class="block w-full text-center px-5 py-3 rounded-lg font-bold bg-blue-600 text-white hover:bg-blue-700">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-linear-to-br from-blue-100 to-blue-200 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl mb-6">
+                Services
+            </h1>
+            <p class="mt-4 max-w-3xl mx-auto text-xl text-gray-500">
+                Simple, transparent pricing for professional websites. Choose the package that fits your needs, or let us create a custom solution for you.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">What We Offer</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Our Services
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+                    Everything you need to establish a strong online presence for your business.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Service 1 -->
+                <div class="bg-white border-2 border-gray-100 rounded-xl p-8 transition-all hover:border-blue-200 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="file-text" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">One-Page Business Websites</h3>
+                    <p class="text-gray-500 mb-4">
+                        Perfect for startups and  businesses that need a simple, effective online presence. All your key information on one scrolling page.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Hero section with call-to-action</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Services or features overview</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>About section</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Contact form</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white border-2 border-gray-100 rounded-xl p-8 transition-all hover:border-blue-200 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="layout" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Multi-Page Business Websites</h3>
+                    <p class="text-gray-500 mb-4">
+                        Ideal for established businesses that need separate pages for different services, products, or information categories.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Up to 4 custom pages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Navigation menu</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Consistent design across pages</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Contact forms and CTAs</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white border-2 border-gray-100 rounded-xl p-8 transition-all hover:border-blue-200 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="target" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Landing Pages</h3>
+                    <p class="text-gray-500 mb-4">
+                        Focused pages designed to convert visitors into customers. Perfect for product launches, promotions, or lead generation campaigns.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Conversion-focused design</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Clear call-to-action</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Benefits and features section</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Lead capture form</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-white border-2 border-gray-100 rounded-xl p-8 transition-all hover:border-blue-200 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="refresh-cw" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Website Redesign</h3>
+                    <p class="text-gray-500 mb-4">
+                        Give your existing website a modern makeover. We'll improve the design, speed, and user experience while keeping your content.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Modern design update</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Improved user experience</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Content migration</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Performance optimization</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-white border-2 border-gray-100 rounded-xl p-8 transition-all hover:border-blue-200 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="smartphone" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Mobile-Friendly Design</h3>
+                    <p class="text-gray-500 mb-4">
+                        Every website we build is fully responsive and optimized for mobile devices. Your site will look great on phones, tablets, and desktops.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Responsive layouts</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Touch-friendly navigation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Optimized images</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Cross-device testing</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-white border-2 border-gray-100 rounded-xl p-8 transition-all hover:border-blue-200 hover:shadow-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="search" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Basic SEO</h3>
+                    <p class="text-gray-500 mb-4">
+                        We optimize your website for search engines so potential customers can find you online. Includes on-page SEO fundamentals.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Meta titles and descriptions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Semantic HTML structure</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Image alt text</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Mobile-friendly optimization</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="bg-white border-2 border-gray-100 rounded-xl p-8 transition-all hover:border-blue-200 hover:shadow-lg sm:col-span-2 lg:col-span-1">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="zap" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Fast Loading Optimization</h3>
+                    <p class="text-gray-500 mb-4">
+                        Speed matters. We build lightweight, optimized websites that load quickly, improving user experience and search rankings.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Clean, efficient code</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Image compression</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Minimal dependencies</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Performance testing</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="bg-white border-2 border-gray-100 rounded-xl p-8 transition-all hover:border-blue-200 hover:shadow-lg sm:col-span-2 lg:col-span-1 group">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="briefcase-business" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Consulting, Market Research and Business Planning</h3>
+
+                    <p class="text-gray-500 mb-4">Build with clarity. Grow with confidence</p>
+
+                    <p class="text-gray-500 mb-4">
+                        At PreDolz Technology, we help businesses make the right decisions before they build or scale so you don't waste time or money.
+                    </p>
+                    <p class="font-semibold mb-2">What we do:</p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Consulting: Turn your ideas into clear, actionable strategies<span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Market Research: Understand your audience, competitors, and opportunities</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-lucide="check" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                            <span>Business Planning: Create a simple, execution ready growth plan<span>
+                        </li>
+                        <div class="mt-6 flex flex-col space-y-2">
+                            <p class="font-bold text-lg">
+                                Why PreDolz?
+                            </p>
+
+                            <li class="flex items-start">
+                                <i data-lucide="circle-dot" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                                <span>Clear strategy<span>
+                            </li>
+
+                            <li class="flex items-start">
+                                <i data-lucide="monitor-cog" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                                <span>Pratical execution<span>
+                            </li>
+
+                            <li class="flex items-start">
+                                <i data-lucide="briefcase-business" class="w-4 h-4 text-blue-600 mr-2 mt-0.5 shrink-0"></i>
+                                <span>Built for Startups & SMEs<span>
+                            </li>
+
+                            <li class="mx-auto mt-6">
+                                <a href="contact.html" class="text-blue-800 group-hover:bg-blue-500 group-hover:text-white text-lg font-bold rounded-xl py-2 px-5 duration-500">👉 Book a consultation</a>
+                            </li>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Transparent Pricing</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Simple, Affordable Packages
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+                    Choose the package that fits your needs. All packages include mobile-responsive design, basic SEO, and fast loading optimization.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 max-w-6xl mx-auto">
+                <!-- Pricing Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border-2 border-gray-100 transition-all hover:border-blue-200 hover:shadow-xl">
+                    <div class="px-8 py-10">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-gray-900">One-Page Website</h3>
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
+                                <i data-lucide="file-text" class="w-6 h-6"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-500 mb-6">Perfect for startups and  businesses that need a simple online presence.</p>
+                        <div class="mb-6">
+                            <span class="text-5xl font-extrabold text-gray-900">$799</span>
+                            <span class="text-gray-500 ml-2">one-time</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Single scrolling page design</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Up to 5 sections</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Contact form integration</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Mobile responsive</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Basic SEO optimization</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">2 rounds of revisions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">1-2 week delivery</span>
+                            </li>
+                        </ul>
+                        <a href="contact.html"  class="block w-full text-center px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-bold hover:bg-blue-600 hover:text-white transition-colors">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pricing Card 2 - Featured -->
+                <div class="bg-blue-600 rounded-xl shadow-xl overflow-hidden border-2 border-blue-600 transform lg:scale-105 relative">
+                    <div class="absolute top-0 right-0 bg-yellow-400 text-gray-900 px-4 py-1 text-sm font-bold rounded-bl-lg">
+                        POPULAR
+                    </div>
+                    <div class="px-8 py-10">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-white">Standard Website</h3>
+                            <div class="w-12 h-12 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
+                                <i data-lucide="party-popper" class="w-6 h-6"></i>
+                            </div>
+                        </div>
+                        <p class="text-blue-100 mb-6">Ideal for established businesses that need multiple pages and more content.</p>
+                        <div class="mb-6">
+                            <span class="text-5xl font-extrabold text-white">$1,499</span>
+                            <span class="text-blue-100 ml-2">one-time</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-white mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-white">Up to 4 custom pages</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-white mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-white">Professional navigation menu</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-white mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-white">Contact form integration</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-white mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-white">Mobile responsive</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-white mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-white">Advanced SEO optimization</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-white mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-white">3 rounds of revisions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-white mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-white">2-3 week delivery</span>
+                            </li>
+                        </ul>
+                        <a href="contact.html"  class="block w-full text-center px-6 py-3 bg-white text-blue-600 rounded-lg font-bold hover:bg-gray-100 transition-colors shadow-lg">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Pricing Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border-2 border-gray-100 transition-all hover:border-blue-200 hover:shadow-xl">
+                    <div class="px-8 py-10">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-gray-900">Landing Page</h3>
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
+                                <i data-lucide="target" class="w-6 h-6"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-500 mb-6">Conversion-focused page for product launches, campaigns, or lead generation.</p>
+                        <div class="mb-6">
+                            <span class="text-5xl font-extrabold text-gray-900">$599</span>
+                            <span class="text-gray-500 ml-2">one-time</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Single conversion-focused page</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Clear call-to-action design</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Lead capture form</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Mobile responsive</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">Basic SEO optimization</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">2 rounds of revisions</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 mr-3 mt-0.5 shrink-0"></i>
+                                <span class="text-gray-600">1 week delivery</span>
+                            </li>
+                        </ul>
+                        <a href="contact.html"  class="block w-full text-center px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-bold hover:bg-blue-600 hover:text-white transition-colors">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pricing Note -->
+            <div class="mt-12 max-w-3xl mx-auto bg-blue-50 border-2 border-blue-100 rounded-xl p-8">
+                <div class="flex items-start">
+                    <div class="shrink-0">
+                        <i data-lucide="info" class="w-6 h-6 text-blue-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="text-lg font-bold text-gray-900 mb-2">Custom Projects & Pricing</h4>
+                        <p class="text-gray-600">
+                            The prices shown are starting points for standard projects. Final pricing depends on your specific requirements, including the number of pages, custom features, content complexity, and timeline. Need something different? We're happy to create a custom quote tailored to your needs. Contact us to discuss your project and get an accurate estimate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Common Questions</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Frequently Asked Questions
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">What's included in the price?</h4>
+                    <p class="text-gray-600">
+                        All packages include design, development, mobile responsiveness, basic SEO, contact form integration, and the specified number of revision rounds. You'll also receive training on how to update your content.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">How long does it take to build a website?</h4>
+                    <p class="text-gray-600">
+                        Timeline varies by package: landing pages take about 1 week, one-page websites take 1-2 weeks, and standard multi-page websites take 2-3 weeks. Custom projects may take longer depending on complexity.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">Do I need to provide content and images?</h4>
+                    <p class="text-gray-600">
+                        Yes, you'll need to provide your text content, logo, and any specific images you want to use. We can help guide you on what content is needed and recommend stock photos if you don't have professional images.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">What if I need more pages later?</h4>
+                    <p class="text-gray-600">
+                        No problem! We can add additional pages to your website at any time. We'll provide a quote based on the complexity and content of the new pages you need.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 rounded-xl p-6">
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">Do you offer hosting and domain services?</h4>
+                    <p class="text-gray-600">
+                        We can help you set up hosting and register a domain, or work with your existing hosting provider. Hosting and domain costs are separate from our design and development fees.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl mb-4">
+                Ready to Get Started?
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                Let's discuss your project and create a website that helps your business grow.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors shadow-lg">
+                    Request a Quote
+                </a>
+                <a href="contact.html"  class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition-colors">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200 pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-8 rounded-lg flex items-center justify-center">
+                            <img src="/PreDolz-Deploy/Assets/Logo/PREDOLZ Logo.png" alt="PreDolz Logo" class="w-10 h-13">
+                        </div>
+                        <span class="font-bold text-xl text-gray-900">PreDolz</span>
+                    </div>
+                    <p class="text-gray-500 text-sm">
+                        Helping  businesses succeed online with simple, effective web solutions.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><a href="about.html" class="hover:text-blue-600">About Us</a></li>
+                        <li><a href="services.html" class="hover:text-blue-600">Our Service</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Portfolio</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><a href="#" class="hover:text-blue-600">Web Design</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Web Development</a></li>
+                        <li><a href="#" class="hover:text-blue-600">SEO Optimization</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Maintenance</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> hello@predolz.com</li>
+                        <li class="flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> +1 (555) 123-4567</li>
+                        <li class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> 123 Web St, Tech City</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-gray-500">© 2025 PreDolz Agency. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-blue-600"><i data-lucide="facebook" class="footer-socials"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-600"><i data-lucide="instagram" class="footer-socials"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-600"><i data-lucide="linkedin" class="footer-socials"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

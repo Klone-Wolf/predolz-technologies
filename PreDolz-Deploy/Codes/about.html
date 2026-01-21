@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" style="height: auto; min-height: 100%;">
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- SEO Meta -->
+    <meta
+      name="description"
+      content="We build fast, clean, and affordable websites for  businesses, startups, and freelancers. Simple designs that help customers find and contact you and help you  build your presence for your business online."
+    />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      name="keywords"
+      content="best website, PreDolz Technologies, best website in Nigeria"
+    />
+    <meta name="author" content="PreDolz Technologies" />
+
+    <!-- Open Graph (for Social Media) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="PreDolz Technologies — Simple Business Websites That Work"
+    />
+    <meta
+      property="og:description"
+      content="Fast, clean, and affordable websites designed to help  businesses get found online and builds presence for your business."
+    />
+    <!-- <meta name="twitter:card" content="summary_large_image" /> -->
+    <meta
+      name="twitter:title"
+      content="PreDolz Technologies | Simple Business Websites That Work"
+    />
+    <meta
+      name="twitter:description"
+      content="Affordable and professional websites for all businesses."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.predolztechnologies.com/og-image.png"
+    />
+
+    <!-- <meta property="og:image" content="images/predolz-preview.jpg" /> -->
+    <meta property="og:url" content="https://www.predolztechnologies.com/" />
+    <meta
+      property="og:image"
+      content="https://www.predolztechnologies.com/og-image.png"
+    />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../Assets/Favicon/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Assets/Favicon/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Assets/Favicon/favicon_io/favicon-16x16.png">
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Page Title -->
+    <title>
+      PreDolz Technologies | Simple Business Websites
+    </title>
+
+    <!-- External Fonts and Styles -->
+    <link rel="canonical" href="https://www.predolztechnologies.com/" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+    <link href="./output.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-gray-600 antialiased" style="height: auto; min-height: 100%;">
+
+    <!-- Navigation -->
+    <nav class="bg-white border-b border-gray-100 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="shrink-0 flex items-center gap-2">
+                        <div class="w-10 h-8 rounded-lg flex items-center justify-center">
+                            <img src="/PreDolz-Deploy/Assets/Logo/PREDOLZ Logo.png" alt="PreDolz Logo" class="w-10 h-13">
+                        </div>
+                        <span class="font-bold text-xl text-gray-900">PreDolz</span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex md:items-center md:space-x-4">
+                    <a href="index.html"  class="nav-links">Home</a>
+                    <a href="about.html" class="text-blue-600 font-bold">About Us</a>
+                    <a href="services.html"  class="nav-links">Services</a>
+                    <a href="contact.html"  class="nav-links">Contact</a>
+                    <a href="contact.html"  class="nav-button">
+                        Get In Touch
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="flex items-center md:hidden">
+                    <button type="button" class="text-gray-500 hover:text-gray-600 focus:outline-none p-2" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="hidden md:hidden bg-white border-t border-gray-100" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html"  class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-gray-50">Home</a>
+                <a href="about.html" class="block px-3 py-2 rounded-md text-base font-bold text-blue-600 bg-blue-50">About Us</a>
+                <a href="services.html"  class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-gray-50">Services</a>
+                <a href="contact.html"  class="block px-3 py-2 rounded-md text-base font-bold text-gray-600 hover:text-blue-600 hover:bg-gray-50">Contact</a>
+                <div class="pt-4 pb-2">
+                    <a href="contact.html"  class="block w-full text-center px-5 py-3 rounded-lg font-bold bg-blue-600 text-white hover:bg-blue-700">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-linear-to-br from-blue-100 to-blue-200 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl mb-6">
+                About Us & How We Work
+            </h1>
+            <p class="mt-4 max-w-3xl mx-auto text-xl text-gray-500">
+                We're a  team passionate about helping businesses succeed online. Learn about our values and the simple process we use to deliver great websites.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <div>
+                    <img class="rounded-xl shadow-lg" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Team collaboration">
+                </div>
+                <div class="mt-10 lg:mt-0">
+                    <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase mb-2">Our Story</h2>
+                    <h3 class="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-6">
+                        We Believe in Simple Websites
+                    </h3>
+                    <div class="space-y-4 text-lg text-gray-500">
+                        <p>
+                            Too many businesses struggle with overcomplicated websites that cost too much and take too long to build. We started PreDolz to change that.
+                        </p>
+                        <p>
+                            Our approach is straightforward: we create clean, professional websites that help  businesses get found online and convert visitors into customers. No bloat, no unnecessary features, just what you need to succeed.
+                        </p>
+                        <p>
+                            We work with startups, freelancers, local services, and  businesses who want a strong online presence without the complexity or high costs of traditional web agencies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Our Values</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    What Drives Us
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+                    These principles guide every project we take on.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Value 1 -->
+                <div class="bg-white overflow-hidden shadow rounded-xl p-8 transition-transform hover:-translate-y-3 duration-300">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="minimize-2" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Simplicity</h3>
+                    <p class="text-gray-500">
+                        We strip away the unnecessary and focus on what truly matters for your business goals.
+                    </p>
+                </div>
+
+                <!-- Value 2 -->
+                <div class="bg-white overflow-hidden shadow rounded-xl p-8 transition-transform hover:-translate-y-3 duration-300">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="zap" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Speed</h3>
+                    <p class="text-gray-500">
+                        Fast websites perform better. We optimize every site for lightning-quick load times.
+                    </p>
+                </div>
+
+                <!-- Value 3 -->
+                <div class="bg-white overflow-hidden shadow rounded-xl p-8 transition-transform hover:-translate-y-3 duration-300">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="message-circle" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Clear Communication</h3>
+                    <p class="text-gray-500">
+                        No jargon, no confusion. We explain everything in plain language you can understand.
+                    </p>
+                </div>
+
+                <!-- Value 4 -->
+                <div class="bg-white overflow-hidden shadow rounded-xl p-8 transition-transform hover:-translate-y-3 duration-300">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="dollar-sign" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Honest Pricing</h3>
+                    <p class="text-gray-500">
+                        Transparent costs with no hidden fees. You'll know exactly what you're paying for upfront.
+                    </p>
+                </div>
+
+                <!-- Value 5 -->
+                <div class="bg-white overflow-hidden shadow rounded-xl p-8 transition-transform hover:-translate-y-3 duration-300">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="target" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Business-Focused Design</h3>
+                    <p class="text-gray-500">
+                        Every design decision is made with your business objectives and customer needs in mind.
+                    </p>
+                </div>
+
+                <!-- Value 6 - Optional filler for grid balance -->
+                <div class="bg-white overflow-hidden shadow rounded-xl p-8 transition-transform hover:-translate-y-3 duration-300">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-6">
+                        <i data-lucide="users" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Customer Success</h3>
+                    <p class="text-gray-500">
+                        Your success is our success. We're invested in helping your business grow online.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Our Process</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    From Idea to Launch in 4 Steps
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+                    A simple, proven workflow that gets you online quickly without sacrificing quality.
+                </p>
+            </div>
+
+            <div class="space-y-16">
+                <!-- Step 1 -->
+                <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                    <div class="order-2 lg:order-1 max-lg:mb-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                                1
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Understanding Your Business</h3>
+                        </div>
+                        <div class="ml-16 space-y-4 text-lg text-gray-500">
+                            <p>
+                                We start by learning about your business, your target audience, and your goals. What makes you different? Who are your ideal customers? What action do you want visitors to take?
+                            </p>
+                            <p>
+                                This discovery phase helps us understand exactly what your website needs to accomplish. We'll discuss your content, branding, and any specific features you need.
+                            </p>
+                            <div class="pt-4">
+                                <div class="flex items-start mb-2">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Initial consultation call</span>
+                                </div>
+                                <div class="flex items-start mb-2">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Content and branding review</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Project scope agreement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-1 lg:order-2 mb-10 lg:mb-0">
+                        <img class="rounded-xl shadow-lg" src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Business meeting">
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                    <div class="mb-10 lg:mb-0">
+                        <img class="rounded-xl shadow-lg" src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Design wireframes">
+                    </div>
+                    <div>
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                                2
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Design & Structure</h3>
+                        </div>
+                        <div class="ml-16 space-y-4 text-lg text-gray-500">
+                            <p>
+                                Based on our discovery, we create a clean, modern design that aligns with your brand. We focus on user experience, making sure visitors can easily find what they're looking for.
+                            </p>
+                            <p>
+                                You'll see mockups or wireframes showing the layout, color scheme, and overall structure. We'll refine the design based on your feedback before moving to development.
+                            </p>
+                            <div class="pt-4">
+                                <div class="flex items-start mb-2">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Visual design mockups</span>
+                                </div>
+                                <div class="flex items-start mb-2">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Content structure planning</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Design revisions and approval</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                    <div class="order-2 lg:order-1 max-lg:mb-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                                3
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Build & Review</h3>
+                        </div>
+                        <div class="ml-16 space-y-4 text-lg text-gray-500">
+                            <p>
+                                We build your website using clean, modern code that's fast and mobile-friendly. Every page is carefully crafted to match the approved design and work flawlessly on all devices.
+                            </p>
+                            <p>
+                                Once development is complete, we share a preview link so you can review the site. We'll make any necessary adjustments based on your feedback before launch.
+                            </p>
+                            <div class="pt-4">
+                                <div class="flex items-start mb-2">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Clean, optimized code</span>
+                                </div>
+                                <div class="flex items-start mb-2">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Mobile responsiveness testing</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Client review and feedback</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-1 lg:order-2 mb-10 lg:mb-0">
+                        <img class="rounded-xl shadow-lg" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2344&q=80" alt="Developer coding">
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                    <div class="mb-10 lg:mb-0">
+                        <img class="rounded-xl shadow-lg" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" alt="Rocket launch">
+                    </div>
+                    <div>
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                                4
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Launch</h3>
+                        </div>
+                        <div class="ml-16 space-y-4 text-lg text-gray-500">
+                            <p>
+                                After final approval, we handle all the technical details of launching your site. We'll set up hosting, configure your domain, and ensure everything is working perfectly.
+                            </p>
+                            <p>
+                                Your website goes live, and we provide you with everything you need to manage it. We're here to support you even after launch if you need help or updates.
+                            </p>
+                            <div class="pt-4">
+                                <div class="flex items-start mb-2">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Domain and hosting setup</span>
+                                </div>
+                                <div class="flex items-start mb-2">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Final testing and deployment</span>
+                                </div>
+                                <div class="flex items-start">
+                                    <i data-lucide="check" class="w-5 h-5 text-blue-600 mr-2 mt-1"></i>
+                                    <span class="text-gray-600">Training and ongoing support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl mb-4">
+                Ready to get started?
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                Let's discuss your project and see how we can help your business succeed online.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="contact.html"  class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors shadow-lg">
+                    Contact Us Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200 pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-8 rounded-lg flex items-center justify-center">
+                            <img src="/PreDolz-Deploy/Assets/Logo/PREDOLZ Logo.png" alt="PreDolz Logo" class="w-10 h-13">
+                        </div>
+                        <span class="font-bold text-xl text-gray-900">PreDolz</span>
+                    </div>
+                    <p class="text-gray-500 text-sm">
+                        Helping  businesses succeed online with simple, effective web solutions.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><a href="about.html" class="hover:text-blue-600">About Us</a></li>
+                        <li><a href="services.html" class="hover:text-blue-600">Our Services</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Portfolio</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li><a href="#" class="hover:text-blue-600">Web Design</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Web Development</a></li>
+                        <li><a href="#" class="hover:text-blue-600">SEO Optimization</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Maintenance</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> hello@predolz.com</li>
+                        <li class="flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> +1 (555) 123-4567</li>
+                        <li class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> 123 Web St, Tech City</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-gray-500">© 2025 PreDolz Agency. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-blue-600"><i data-lucide="facebook" class="footer-socials"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-600"><i data-lucide="instagram" class="footer-socials"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-blue-600"><i data-lucide="linkedin" class="footer-socials"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
