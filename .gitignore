@@ -1,0 +1,14 @@
+# Node / Tailwind
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Editor
+.vscode/
+
+# Environment
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
